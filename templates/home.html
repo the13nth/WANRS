@@ -27,7 +27,6 @@
         }
         .card {
             position: fixed;
-            top: 10%;
             left: 50%;
             transform: translate(-50%, -50%);
             padding: 10px;
@@ -40,6 +39,7 @@
             height: fit-content;
             max-height: 300px;
             overflow: auto;
+            margin-top: 150px;
           }
           .sbutton{
               margin: 5px;
@@ -48,8 +48,8 @@
     </style>
 </head>
 <body>
-    <div class="card" id="card">
-    <h1>{{ intro_message }}</h1>
+    <div class="card">
+    {{ intro_message }}
     <div class="sbutton">
         <button onclick="location.href='/start_game'">Start Game</button>
 
