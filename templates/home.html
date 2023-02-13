@@ -41,13 +41,19 @@
             max-height: 300px;
             overflow: auto;
           }
+          .sbutton{
+              margin: 10px;
+            }
         
     </style>
 </head>
 <body>
     <div class="card" id="card">
     <h1>{{ intro_message }}</h1>
-    <button onclick="location.href='/start_game'">Start Game</button>
+    <div class="sbutton">
+        <button onclick="location.href='/start_game'">Start Game</button>
+
+    </div>
     </div>
 </body>
 </html>
