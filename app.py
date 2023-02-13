@@ -72,7 +72,22 @@ def start_game():
     "What is your ultimate goal in life?",
     "What is something you want to accomplish in the next year?",
     "What is your vision of your future self?",
-    "What is your fondest childhood memory?"
+    "What is your fondest childhood memory?",
+    "Do you believe in any sort of higher power or divine being? Why or why not?",
+    "Have you ever had a spiritual experience or felt a connection to something greater than yourself? Can you describe it?",
+    "How has your spirituality, or lack thereof, influenced your life and decision-making?",
+    "Are there any spiritual practices or rituals that you engage in regularly? Why do you find them meaningful?",
+    "How do you find purpose and meaning in life?",
+    "Do you believe that there is a purpose or plan for your life, or do you think that everything is random chance? Why?",
+    "Have you ever had a crisis of faith or a moment where you doubted your spiritual beliefs? How did you navigate that experience?",
+    "Do you believe that there is life after death? Why or why not?",
+    "Have you ever explored spirituality or religious beliefs that are different from your own? What did you learn from that experience?",
+    "Are there any spiritual or philosophical texts or teachings that have had a significant impact on your life? What did you learn from them?",
+    "Do you believe that there is such a thing as destiny or fate? Why or why not?",
+    "How do you reconcile difficult or painful experiences with your spiritual beliefs, or lack thereof?",
+    "Are there any moral or ethical values that you hold as a result of your spiritual beliefs or lack thereof? What are they?",
+    "Have you ever had an encounter with death that made you question your spiritual beliefs, or lack thereof?",
+    "Do you believe that spirituality can exist outside of organized religion? Why or why not?",
 ]
     random.shuffle(questions)
     current_question = 0
