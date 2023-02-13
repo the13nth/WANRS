@@ -3,7 +3,7 @@ import random
 
 app = Flask(__name__)
 
-intro_message = "Welcome to the 'We're Not Really Strangers' game! This game is designed to help you get"
+intro_message = "Y'all have dates? Wow, look at you! Well, before you fall head over heels, let me introduce you to a little game called We're Not Really Strangers. Now, I can't take credit for this brilliant idea, but if you enjoy it, I highly recommend you head over to werenotreallystrangers.com and purchase the official game. But for now, let's get ready to strip down our emotional walls and get to know each other on a whole new level."
 
 @app.route("/")
 def home():

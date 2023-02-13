@@ -9,8 +9,7 @@
             text-align: center;
         }
         h1 {
-            font-size: 28px;
-            font-weight: bold;
+            font-size: 18px;
             margin-top: 100px;
         }
         button {
@@ -26,10 +25,29 @@
         button:focus {
             outline: none;
         }
+        .card {
+            position: fixed;
+            top: 10%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 10px;
+            border: none;
+            background-color: white;
+            box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+            border-radius: 15px;
+            width: 50%;
+            max-width: 1600px;
+            height: 100%;
+            max-height: 300px;
+            overflow: auto;
+          }
+        
     </style>
 </head>
 <body>
+    <div class="card" id="card">
     <h1>{{ intro_message }}</h1>
     <button onclick="location.href='/start_game'">Start Game</button>
+    </div>
 </body>
 </html>
